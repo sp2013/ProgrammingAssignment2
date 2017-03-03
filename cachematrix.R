@@ -5,6 +5,9 @@
 ## Description: This function creates a special matrix object that can cache it's 
 ##              inverse matrix thus saving computation time if it's inverse is required  
 ##              frequently in a program.
+##
+##				some changes done to file from appModule
+
 
 makeCacheMatrix <- function(x = matrix()) {
   
